@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel-items {
+  transition: transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.carousel-items .item {
+  flex: 0 0 100%;
+}
+
+@layer components {
+  .subtitle {
+    @apply text-sm leading-normal font-normal
+  }
+
+  .button-white {
+    @apply flex items-center justify-center self-stretch py-2 px-4 subtitle text-brand-red
+  }
+}
+
+@layer base {
+  h4 {
+    @apply text-2xl leading-[120%] font-semibold
+  }
+  h5 {
+    @apply text-xl leading-[120%] font-bold
+  }
+}

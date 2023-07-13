@@ -9,6 +9,17 @@ module.exports = {
     extend: {
       colors: {
         'brand-red' : '#F5333F',
+        'brand-red-600' : '#F94355',
+        'brand-grey' : '#999',
+        'brand-grey-100' : '#F1F1F1',
+        'brand-grey-200' : '#E6E6E6',
+        'brand-grey-600' : '#808080',
+        'brand-grey-900' : '#333',
+        'brand-grey-black' : '#000',
+        'brand-grey-white' : '#FFF',
+        'brand-slate-200' : '#C5C7D0',
+        'brand-slate' : '#1A202C',
+        'brand-navy': '#012846'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
