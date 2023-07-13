@@ -21,7 +21,7 @@ const Navbar = () => {
         { text: 'FAQ', url: '#' }
     ]
     return (
-        <nav className="bg-brand-grey-white py-10 px-16">
+        <nav className="bg-brand-grey-white py-10 px-8 sm:px-16">
             <div className="max-w-[1440px] mx-auto flex items-center justify-between">
                 <Link href="/" className="flex-none">
                     <Image src={logo} alt="Logo" width={147} height={42} />

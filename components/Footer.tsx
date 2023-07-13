@@ -67,7 +67,7 @@ const Footer = () => {
             <div className='grid grid-cols-1 gap-4 xl:grid-cols-4 xl:gap-0 lg:grid-cols-2 lg:gap-4 w-full'>
                 <div className='flex flex-col gap-1'>
                     <span className='font-semibold'>Kredit Bangun Rumah</span>
-                    <div className='flex gap-6 items-center'>
+                    <div className='flex sm:gap-6 items-center flex-wrap gap-2'>
                         <Image src={BankMandiriLogo} alt=''/>
                         <Image src={BankBTNLogo} alt=''/>
                         <Image src={BankBNILogo} alt=''/>
@@ -75,7 +75,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-1'>
                     <span className='font-semibold'>Tunai Via Bank Transfer</span>
-                    <div className='flex gap-6 items-center'>
+                    <div className='flex sm:gap-6 items-center flex-wrap gap-2'>
                         <Image src={BankMandiriLogo} alt=''/>
                         <Image src={BankBNILogo} alt=''/>
                         <Image src={BankBRILogo} alt=''/>
@@ -84,7 +84,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-1'>
                     <span className='font-semibold'>Kartu Kredit</span>
-                    <div className='flex gap-6 items-center'>
+                    <div className='flex sm:gap-6 items-center flex-wrap gap-2'>
                         <Image src={CreditVisaLogo} alt=''/>
                         <Image src={CreditMastercardLogo} alt=''/>
                         <Image src={CreditJCBLogo} alt=''/>
@@ -92,7 +92,7 @@ const Footer = () => {
                 </div>
                 <div className='flex flex-col gap-1'>
                     <span className='font-semibold'>Rekan Teknologi Tambahan</span>
-                    <div className='flex gap-6 items-center'>
+                    <div className='flex sm:gap-6 items-center flex-wrap gap-2'>
                         <Image src={RekanASCOLogo} alt=''/>
                         <Image src={RekanInecoLogo} alt=''/>
                         <Image src={RekanAdidayaLogo} alt=''/>

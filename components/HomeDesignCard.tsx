@@ -38,7 +38,7 @@ const HomeDesignCard = ({ data }: HomeDesignCardProps) => {
                         <div className="px-3 py-1 text-sm leading-[1.225rem] bg-brand-grey-100 text-brand-grey-black rounded-2xl">{data.type}</div>
                     </div>
                     <div className="flex gap-1 items-center">
-                        <div className="rounded-full w-7 h-7 border border-brand-grey-200"></div>
+                        <Image src={data.studio.image} alt="" width={28} height={28} className="rounded-full w-7 h-7 border border-brand-grey-200"></Image>
                         <span className="subtitle">{data.studio.name}</span>
                     </div>
                 </div>
