@@ -40,8 +40,8 @@ type HomeDesign = {
 
 export default function Home() {
   const items = [
-    <Image className="w-full" src={slider1} alt="" />,
-    <Image className="w-full" src={slider1} alt="" />,
+    <Image key={1} className="w-full" src={slider1} alt="" />,
+    <Image key={2} className="w-full" src={slider1} alt="" />,
   ]
   
   const homeAreas: HomeArea[] = [
